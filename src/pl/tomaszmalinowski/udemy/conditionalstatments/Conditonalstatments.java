@@ -60,7 +60,7 @@ public class Conditonalstatments {
 
         //switch case //
 
-        int menu = 5;
+        int menu = 4;
         switch (menu) {
             case 1:
                 System.out.println("Mane Menu");
@@ -74,6 +74,15 @@ public class Conditonalstatments {
             default:
                 System.out.println("Invalid Parametr");
         }
+
+
+        //short if  //
+
+        var even = (menu%2 == 0) ? "yes" : "no";
+        System.out.println(even);
+
+
+        // warunek ? jeśli true : jeśli folse
 
     }
 }
