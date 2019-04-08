@@ -12,6 +12,8 @@ public class Methods {
         System.out.println(addition(9, addition(4, 3, 2)));
 
         System.out.println(checkBy3(4));
+        // foo();
+        System.out.println(factorial(25));
 
     }
 
@@ -58,6 +60,20 @@ UPROSZCZENIE
 */
         return a % 3 == 0;
     }
+// Pętla nieskończona
+    private static void foo () {
+        System.out.println("foo");
+        foo();
+    }
 
-    
+// SILNIA  n!  5!  = 1*2*3*4*5
+    private static long factorial (long n) {
+        if (n==1)
+            return 1;
+        else
+            return (n*factorial(n-1));
+
+    }
+
+
 }
