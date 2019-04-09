@@ -5,7 +5,7 @@ public class Invoice {
     public static void main(String[] args) {
 
 
-        calculateTax();
+        calculateTax(23.5);
         setCustamerData();
 
 
