@@ -6,7 +6,6 @@ public class Customer {
 
     private String firstaName;
     private String lastName;
-    private Address address;
     private String taxNumber;
     private String eMail;
     private String companyName;
@@ -29,13 +28,6 @@ public class Customer {
         this.lastName = lastName;
     }
 
-    public Address getAddress() {
-        return address;
-    }
-
-    public void setAddress(Address address) {
-        this.address = address;
-    }
 
     public String getTaxNumber() {
         return taxNumber;
@@ -61,6 +53,15 @@ public class Customer {
         this.companyName = companyName;
     }
 
+    public Customer(String firstaName, String lastName, Address address, String taxNumber, String eMail, String companyName) {
+        this.firstaName = firstaName;
+        this.lastName = lastName;
+        this.taxNumber = taxNumber;
+        this.eMail = eMail;
+        this.companyName = companyName;
+    }
+
+    /*
     public void introduceYorself () {
         System.out.println("Hello, I'm " + firstaName + " " + lastName + ".");
     }
@@ -68,4 +69,5 @@ public class Customer {
     private String getFirstAndLastaName () {
         return firstaName + " " + lastName;
     }
+*/
 }

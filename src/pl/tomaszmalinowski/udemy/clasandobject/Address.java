@@ -43,6 +43,5 @@ public class Address {
         this.postCode = postCode;
         this.street = street;
         this.streetNumber = streetNumber;
-        System.out.println("create new address " + postOffice);
     }
 }
