@@ -25,17 +25,19 @@ public class Test {
         customer1.setFirstaName("Tomasz");
         customer1.setLastName("Tomasz");
 
-        Address customer1Address = new Address();
-        customer1Address.setPostOffice("Gdynia");
-        customer1Address.setPostCode("81-560");
-        customer1Address.setStreet("Szturmnaów");
-        customer1Address.setStreetNumber("33");
+        Address customer1Address = new Address("Gdynia", "81-560", "Szturmanów", "33");
+//        customer1Address.setPostOffice("Gdynia");
+//        customer1Address.setPostCode("81-560");
+//        customer1Address.setStreet("Szturmnaów");
+//        customer1Address.setStreetNumber("33");
 
         customer1.setAddress(customer1Address);
 
 
         System.out.println(customer1.getFirstaName());
-        System.out.println(customer1.getAddress());
+        System.out.println(Customer.COMPANY_NAME);
+
+        customer1.introduceYorself();
 
 
     }

@@ -37,4 +37,12 @@ public class Address {
     public void setStreetNumber(String streetNumber) {
         this.streetNumber = streetNumber;
     }
+
+    public Address(String postOffice, String postCode, String street, String streetNumber) {
+        this.postOffice = postOffice;
+        this.postCode = postCode;
+        this.street = street;
+        this.streetNumber = streetNumber;
+        System.out.println("create new address " + postOffice);
+    }
 }
