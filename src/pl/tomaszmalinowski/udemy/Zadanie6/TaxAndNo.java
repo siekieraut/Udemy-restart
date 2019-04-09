@@ -1,4 +1,4 @@
-package pl.tomaszmalinowski.udemy.clasandobject;
+package pl.tomaszmalinowski.udemy.Zadanie6;
 
 public class TaxAndNo {
 

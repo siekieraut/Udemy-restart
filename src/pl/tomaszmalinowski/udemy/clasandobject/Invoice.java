@@ -6,18 +6,26 @@ public class Invoice {
 
 
         calculateTax();
-        getCustamerData();
+        setCustamerData();
+        printCustomerData();
+
+
 
     }
 
     private static void calculateTax() {
     }
 
-    private static String getCustamerData() {
+    private static void setCustamerData() {
 
-        Customer customer3 = new Customer("Adam", "Nowak","5832969085","test@test.pl","Kowalstwo");
-        Address customer3Adress = new Address("Gdynia","81-546", "Zwycięstwa","245");
-
+        Customer customer4 = new Customer("Jan", "Nowak", "5832969085", "test@test.pl", "ZFRT");
+        Address customer4Address = new Address("Gdynia", "81-456", "Zwycięstwa", "245");
 
     }
+
+    private static void printCustomerData () {
+        System.out.println();
+    }
+
+
 }

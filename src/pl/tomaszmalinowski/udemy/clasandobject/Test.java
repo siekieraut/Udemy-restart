@@ -20,7 +20,7 @@ public class Test {
 //            System.out.println(customer2.name);
 //        }
 
-        Customer customer1 = new Customer();
+        Customer customer1 = new Customer("Tomek","Malinowski", "5832969085", "test2test.pl", "FREQAS");
 
         customer1.setFirstaName("Tomasz");
         customer1.setLastName("Tomasz");
@@ -31,13 +31,10 @@ public class Test {
 //        customer1Address.setStreet("Szturmnaów");
 //        customer1Address.setStreetNumber("33");
 
-        customer1.setAddress(customer1Address);
-
 
         System.out.println(customer1.getFirstaName());
-        System.out.println(Customer.COMPANY_NAME);
 
-        customer1.introduceYorself();
+
 
 
     }
