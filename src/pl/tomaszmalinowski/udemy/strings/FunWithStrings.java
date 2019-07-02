@@ -39,5 +39,22 @@ public class FunWithStrings {
         }
         System.out.println(StrUtils.removeLastSeparator(results, ","));
 
+        String res = "";
+
+        StringBuilder sb = new StringBuilder();
+        //StringBuilder kiedy mamy kilka wątków w aplikacji
+        for (int i = 0; i <1000000 ; i++) {
+            sb.append("a");
+        }
+        System.out.println(sb.toString());
+        // dużo bardziej wydajne 1000 x szybciej dodaje napisy
+
+
+
+//        for (int i = 0; i <1000000 ; i++) {
+//            res +="a";
+//        }
+//        System.out.println(res);
+//         metoda nie wydajna
     }
 }
