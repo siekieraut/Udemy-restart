@@ -1,6 +1,7 @@
 package pl.tomaszmalinowski.udemy.strings;
 
 import pl.tomaszmalinowski.udemy.Zadanie6.Customer;
+import pl.tomaszmalinowski.udemy.utils.StrUtils;
 
 public class FunWithStrings {
 
@@ -36,7 +37,7 @@ public class FunWithStrings {
         for (String str : strings) {
             results = results + str + ", ";
         }
-        System.out.println(results);
+        System.out.println(StrUtils.removeLastSeparator(results, ","));
 
     }
 }
