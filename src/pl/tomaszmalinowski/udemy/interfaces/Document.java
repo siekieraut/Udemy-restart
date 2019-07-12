@@ -8,4 +8,9 @@ public interface Document {
 
     public String open (String path);
 
+    public default void introduceYorself () {
+        System.out.println("interface Document");
+
+    }
+
 }

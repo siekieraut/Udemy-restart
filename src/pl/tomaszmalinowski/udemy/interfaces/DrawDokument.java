@@ -11,4 +11,9 @@ public class DrawDokument implements Document {
     public String open(String path) {
         return "draw file:" + path;
     }
+
+    public void draw (OnClickListener ocl) {
+        System.out.println("draw...");
+
+    }
 }

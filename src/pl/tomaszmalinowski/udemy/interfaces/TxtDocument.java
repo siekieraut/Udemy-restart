@@ -2,7 +2,7 @@ package pl.tomaszmalinowski.udemy.interfaces;
 
 import java.io.Serializable;
 
-public class TxtDocument implements Document, Serializable  {
+public class TxtDocument extends AbstractDocument implements Document, Serializable  {
     @Override
     public boolean save() {
         //dodatkowe operacje
