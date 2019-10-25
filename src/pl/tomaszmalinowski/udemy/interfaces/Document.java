@@ -12,5 +12,6 @@ public interface Document {
         System.out.println("interface Document");
 
     }
+    //interface nie mze importować innych interfaceów ale moze rozszezac o inne interface
 
 }
