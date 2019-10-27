@@ -22,7 +22,11 @@ public class CarFactory extends Factory {
 
     @Override
     public boolean equals(Object obj) {
-        return super.equals(obj);
+        if ( obj instanceof CarFactory){
+            return ((CarFactory) obj).getName().equals(this.getName());
+        }
+        else
+            return false;
     }
 
     public String getName() {
