@@ -7,7 +7,10 @@ public class AppTest {
         FirstApp firstApp = new FirstApp();
         SecendApp secendApp = new SecendApp();
 
+
+        firstApp.onCreate();
         firstApp.onPause();
+        secendApp.onCreate();
         secendApp.onPause();
 
 
