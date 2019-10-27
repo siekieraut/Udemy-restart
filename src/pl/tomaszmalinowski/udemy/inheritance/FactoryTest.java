@@ -25,6 +25,9 @@ public class FactoryTest {
                 super.checkState();
             }
 */
+        System.out.println(phoneFactory.introduceYorself());
+
+
     }
 
 }
