@@ -1,6 +1,6 @@
 package pl.tomaszmalinowski.udemy.interfaces.zadanie;
 
-public class Futurephone implements Phone{
+public class Futurephone implements Phone {
 
 
     @Override
@@ -17,7 +17,7 @@ public class Futurephone implements Phone{
 
     @Override
     public void call(Integer number) {
-        System.out.println("Call to: " +number);
+        System.out.println("Call to: " + number);
 
     }
 }
