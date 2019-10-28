@@ -15,5 +15,12 @@ public class Poly {
         if (draw instanceof TxtDocument) {
             System.out.println(true);
         }
+
+        Box<Document> box = new Box<>();
+        box.setT(new TxtDocument());
+        box.setT(new DrawDokument());
+
+        Box<String> box2 = new Box<>();
+        
     }
 }
