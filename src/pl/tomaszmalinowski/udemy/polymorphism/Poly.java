@@ -20,7 +20,17 @@ public class Poly {
         box.setT(new TxtDocument());
         box.setT(new DrawDokument());
 
-        Box<String> box2 = new Box<>();
-        
+//        Box<String> box2 = new Box<>();
+        //metody rzutowania
+        String n = "1";
+        Object o ="abc";
+        String s = (String) o;
+        int i = Integer.valueOf(n);
+
+        System.out.println(s+n);
+        System.out.println(""+i);
+
+
+
     }
 }
