@@ -15,6 +15,11 @@ public class Collections {
         Set<String> treeSet = new TreeSet<>();
         Set<String> hashSet = new HashSet<>(); //set wyświetla elementy listy bez powturek
 
+        treeSet.addAll(list);
+        System.out.println(treeSet);
+
+
+
         hashSet.addAll(list);
         System.out.println(hashSet);
 
