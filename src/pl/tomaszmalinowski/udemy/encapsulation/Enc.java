@@ -2,10 +2,10 @@ package pl.tomaszmalinowski.udemy.encapsulation;
 
 public class Enc {
 
-    private static int x; // widoczny w obrę bie danej klasy
+    private static int x; // widoczny w obrębie danej klasy
     protected int y; // dostepny w klasie pakiecie i podklasie
 
-    int z; //modyfikator domyślny - dostep dla klasy i pakietu
+    int z; //modyfikator domyślny -  dostep dla klasy i pakietu
 
     public static void main(String[] args) { //publiczne dla wszystkich
 

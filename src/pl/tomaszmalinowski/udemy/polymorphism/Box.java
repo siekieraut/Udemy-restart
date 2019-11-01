@@ -1,6 +1,7 @@
 package pl.tomaszmalinowski.udemy.polymorphism;
 
 public class Box<T> {
+    //klasa generyczna
 
     private T t;
 
