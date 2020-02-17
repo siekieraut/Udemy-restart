@@ -2,10 +2,7 @@ package pl.tomaszmalinowski.udemy.io;
 
 import org.w3c.dom.ls.LSOutput;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -41,5 +38,17 @@ public class Io2 {
             e.printStackTrace();
 
         }
+        try {
+            FileWriter writer = new FileWriter("C:\\Users\\tomek\\IdeaProjects\\Udemy-restart\\src\\pl\\tomaszmalinowski\\udemy\\io\\efg.txt", true);
+            writer.write("Hello!");
+            writer.write("\r\n");
+            writer.write("How are you?");
+            writer.close(); //zakańcza i tworzy plik
+
+        } catch (IOException e2) {
+            e2.printStackTrace();
+        }
+
+
     }
 }
