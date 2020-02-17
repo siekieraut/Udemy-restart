@@ -43,6 +43,7 @@ public class Io2 {
             writer.write("Hello!");
             writer.write("\r\n");
             writer.write("How are you?");
+            writer.write("\r\n");
             writer.close(); //zakańcza i tworzy plik
 
         } catch (IOException e2) {
